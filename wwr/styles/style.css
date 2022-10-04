@@ -1,0 +1,100 @@
+#content div {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+main section {
+    text-align: center;
+  }
+
+#background {
+  height: 725px;
+}
+
+body {
+    background: #163850;
+}
+.button-box{
+    text-align: center;
+}
+header {
+    background: #396E94
+}
+.home-title {
+    color: #163850 
+ }
+ /* adding a width to logo and icons. and another rule for hero img*/ 
+.logo, .icon{
+    width: 80px;
+ }
+ 
+ #hero-img {
+     width: 100%;
+ }
+nav a{
+    text-align: center;
+    color:  #57cc99;
+    text-decoration: none;
+} /* text decoration with value none, takes away the underline of the text link*/
+nav a:hover {
+    background:  #57cc99;
+    color: #163850;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+
+.book, .join {
+    background: #163850;
+    color: #80ed99;
+    text-decoration: none;
+}
+.book:hover, .join:hover{
+    background: #396E94;
+    color:#163850;
+}
+
+#background {
+    background: #57cc99;
+}
+.msg{
+    background: #80ed99;
+}
+.msg h2{
+    color: #163850;
+
+} 
+.msg p{
+    color:#163850;
+}
+h4 {
+    color:#163850
+}
+
+.msg p {
+    color:#163850
+}
+footer{
+    background: #163850;
+} /* rules to set background colors */
+
+footer h3{
+    color: #163850  /* rules to set colors for font*/
+}
+footer a{
+    color: #80ed99;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #396E94
+}
+
+/* changing size of font in footer */
+footer p {
+    font-size: 1.2em;
+} 
+/* adding text-decoration property with value of underline*/
+footer p a:hover {
+    text-decoration: underline;
+} 
