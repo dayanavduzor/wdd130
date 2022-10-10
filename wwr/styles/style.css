@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Raleway:wght@200&family=Roboto:wght@300&display=swap');
+
 #content div {
   max-width: 1600px;
   margin: 0 auto;
@@ -7,13 +9,7 @@ main section {
     text-align: center;
   }
 
-#background {
-  height: 725px;
-}
 
-body {
-    background: #163850;
-}
 .button-box{
     text-align: center;
 }
@@ -21,20 +17,37 @@ header {
     background: #396E94
 }
 .home-title {
-    color: #163850 
+    font-family: 'Lobster Two', cursive , 'Times New Roman';
+    font-size: 2em;
+    color: #57cc99;
+    margin-top: 10px;
  }
  /* adding a width to logo and icons. and another rule for hero img*/ 
 .logo, .icon{
     width: 80px;
+    border-radius: 50px;
+ }
+ #logo_link {
+    padding-top: 5px;
  }
  
  #hero-img {
      width: 100%;
  }
+ body {
+    background: #163850;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-family: 'Roboto', sans-serif, 'Raleway', sans-serif , 'Tahoma';
+}
 nav a{
     text-align: center;
     color:  #57cc99;
     text-decoration: none;
+    padding: 35px;
 } /* text decoration with value none, takes away the underline of the text link*/
 nav a:hover {
     background:  #57cc99;
@@ -46,38 +59,68 @@ nav a:hover {
 
 
 .book, .join {
-    background: #163850;
+    background: #396E94;
     color: #80ed99;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
-    background: #396E94;
-    color:#163850;
+    background: #0e2535;
+    color: #80ed99;
+}
+.icon {
+    padding: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #80ed99;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 #background {
     background: #57cc99;
+    height: 725px;
 }
 .msg{
-    background: #80ed99;
+    background: #57cc99;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
+    font-family: 'lobster Two';
     color: #163850;
+    margin: 0;
 
 } 
 .msg p{
     color:#163850;
+    font-size: .8em;
+
+    padding-bottom: 15px;
 }
 h4 {
-    color:#163850
+    color:#c7f9cc ;
+}
+h2 {
+    font-family: 'Lobster Two', 'cursive', 'san-serif';
+    color: #57cc99;
 }
 
-.msg p {
-    color:#163850
-}
 footer{
     background: #163850;
-} /* rules to set background colors */
+    padding: 25px 50px;
+    margin-top: 200px;
+} 
 
 footer h3{
     color: #163850  /* rules to set colors for font*/
@@ -85,9 +128,6 @@ footer h3{
 footer a{
     color: #80ed99;
     text-decoration: none;
-}
-footer a:hover{
-    color: #396E94
 }
 
 /* changing size of font in footer */
@@ -97,4 +137,8 @@ footer p {
 /* adding text-decoration property with value of underline*/
 footer p a:hover {
     text-decoration: underline;
+    color: #396E94;
 } 
+footer .social img {
+    padding-top: 15px;
+}
