@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Raleway:wght@200&family=Roboto:wght@300&display=swap');
 
-#content div {
+#content {
   max-width: 1600px;
   margin: 0 auto;
 }
