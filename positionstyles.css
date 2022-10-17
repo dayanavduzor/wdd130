@@ -70,7 +70,7 @@
 .content3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 120px;
+  grid-column-gap: 30px;
   /* This is the parent of the activity 3 boxes. */
 }
 .red3 {
@@ -90,6 +90,7 @@
   height: 200px; 
   background-color: gold; 
   grid-column: 2/3;
+  margin-left: 50px;
   
   
 } 
