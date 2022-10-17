@@ -104,7 +104,6 @@
   /* This is the parent of the activity 4 boxes. */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-row: 1fr 1fr 1fr;
   height: 400px;
 }
 .red4 {
@@ -168,7 +167,6 @@
   /* This is the parent of the activity 6 boxes. */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-row: 1fr 1fr 1fr 1fr 1fr 1fr;
   height: 1200px;
 }
 .red6 {
