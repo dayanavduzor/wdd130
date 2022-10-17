@@ -33,12 +33,15 @@
 } 
 /* Activity 2 styles */ 
 .content2 {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px;
   /* This is the parent of the activity 2 boxes. */
 }
 .red2 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  margin-top: -50px;
 } 
 .green2 { 
   width: 100px; 
@@ -49,11 +52,13 @@
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  margin-top: 60px;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  margin-top: 120px;
 } 
 /* Activity 3 styles */ 
 .content3 {
