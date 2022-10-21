@@ -89,8 +89,8 @@ nav a:hover {
 
 
 .book, .join {
-    background: #163850;
-    color: #80ed99;
+    background: #122d41;
+    color: #cfdbd5;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -168,7 +168,7 @@ h4 {
 }
 h2 {
     font-family: 'Lobster Two', 'cursive', 'san-serif';
-    color: #57cc99;
+    color: #cfdbd5;
     margin: 0;
 }
 
@@ -186,7 +186,7 @@ footer h3{
     color: #163850  /* rules to set colors for font*/
 }
 footer a{
-    color: #80ed99;
+    color: #cfdbd5;
     text-decoration: none;
 }
 
