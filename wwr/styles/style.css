@@ -17,6 +17,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background: #163850;
+
     
 }
 .home-title {
