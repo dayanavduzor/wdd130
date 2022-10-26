@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color: #edf1e4;
   --accent3-color: #b88700;
 
-  
+
   /* change the values below to your chosen font(s) */
   --heading-font: "Lato", "Mulish", "Arvo";
   --paragraph-font: "Mulish", Helvetica, sans-serif, "Arvo";
@@ -80,7 +80,7 @@ p {
   background-color: #999;
 }
 .colors td{
-  width: 25%;
+  width: 20%;
   height: 3em;
 }
 
