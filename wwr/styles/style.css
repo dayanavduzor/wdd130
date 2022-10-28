@@ -16,7 +16,7 @@ main section {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background: #163850;
+    background: #1f4c6bfb;
 
     
 }
@@ -75,7 +75,7 @@ p {
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: #163850;
+    background-color: #1638508e;
 }
 nav a{
     text-align: center;
@@ -181,7 +181,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #163850;
+    background: #1f4c6bfb;
     padding: 25px 50px;
     margin-top: 200px;
     
