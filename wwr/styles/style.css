@@ -208,6 +208,18 @@ footer .social img {
     padding-top: 15px;
 }
 
+
+/* second page css */
+.learn-the-rivers{
+    font-family: 'Lobster Two', 'cursive', 'san-serif';
+    color: #cfdbd5;
+    margin-top: 50px;
+}
+#background-rivers-info{
+    height: 1500px;
+    background-color: #0e2535;
+}
+
 /*media query: */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
