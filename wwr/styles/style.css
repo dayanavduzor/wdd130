@@ -355,6 +355,10 @@ footer .social img {
     margin-top: 20px;
 }
 
+/*.button-box2 {
+    text-align: center;
+}  it does nothing to center the button*/
+
 .book-price{
     background: #24e6e9c5;
     color:#0e2535;
@@ -373,6 +377,7 @@ footer .social img {
     color: rgba(9, 120, 148, 0.849);
     
 }
+
 
 
 
