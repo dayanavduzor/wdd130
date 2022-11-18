@@ -106,8 +106,22 @@ h2 {
 .gallery-box {
     max-width: 300px;
     border-radius: 50px;
-    grid-column: 4/5;
-    color: aliceblue;
+}
+.gallery-text{
+    color: black;
+    background-color: aliceblue;
+} 
+.gallery_button {
+    margin: auto;
+    padding: 10px;
+    color: black;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+.gallery-button:hover {
+    background-color: #b88700;
+    color: #0A0A0A;
+
 }
 /* address information and img*/
 .background_2{
