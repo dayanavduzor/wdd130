@@ -164,9 +164,10 @@ h2 {
 }
 /* footer --- */
 footer {
-    background-color: #0A0A0A;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    padding: 25px 50px;
+    background-color: #0A0A0A;
 }
 footer a{
     color: #F3C33F;
@@ -175,3 +176,4 @@ footer a{
 footer p a:hover {
     color: aliceblue;
 }
+
