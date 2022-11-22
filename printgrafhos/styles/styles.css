@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300;400&family=Mulish:wght@200;400&display=swap');
 
 #content {
     width: 1600px;
@@ -63,6 +64,7 @@ body {
     border-width: 10px;
     margin: 200px auto;
     padding: 35px;
+    font-family: "Mulish", Helvetica, sans-serif, "Arvo";
 }
 
 .ofset-machine {
@@ -82,10 +84,11 @@ h2 {
     grid-row: 1/2;
     text-align: center;
     color: #b88700;
+    font-family: "Lato", "Mulish", "Arvo";
 }
 .main-text  {
     grid-column: 3/4;
-    padding: auto;
+    padding: 5px;
     text-align: justify;
 }                                           
 
@@ -127,12 +130,14 @@ h2 {
     max-height: 80px;
     margin-left: -80px;
     border-radius: 140px;
-    padding: 70px;
+    padding: 75px;
 
     color: aliceblue;
     background-color: black;
     text-decoration: none;  
     text-align: center;
+    font-family: "Lato", "Mulish", "Arvo";
+    font-size: .9em;
 } 
     
 .gallery-button:hover {
@@ -168,9 +173,12 @@ h2 {
 }
 .address-1{
     color: #b88700;
+    font-family: "Lato", "Mulish", "Arvo";
+    font-size: 1.2em;
 }
 .address-2, .address-3 {
     color: aliceblue;
+    font-family: "Mulish", Helvetica, sans-serif, "Arvo";
 }
 /* footer --- */
 footer {
