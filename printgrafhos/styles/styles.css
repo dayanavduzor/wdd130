@@ -96,10 +96,13 @@ h2 {
 .background_1 {
     width: 100%;
     height: 740px;
-    background-color: #b88700;
+    background-color: #b8870099;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
+    border-style: solid;
+    border-color: #b88700c7;
+    border-width: 15px;
 }
 .black-column1{
     grid-column: 1/2;
