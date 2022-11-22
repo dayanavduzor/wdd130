@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300;400&family=Mulish:wght@200;400&display=swap');
 
 #content {
-    width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
