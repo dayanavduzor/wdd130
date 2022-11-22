@@ -81,6 +81,7 @@ h2 {
     grid-column: 3/4;
     grid-row: 1/2;
     text-align: center;
+    color: #b88700;
 }
 .main-text  {
     grid-column: 3/4;
