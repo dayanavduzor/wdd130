@@ -105,7 +105,7 @@ h2 {
     grid-template-rows: auto auto auto;
 }
 .black-column1{
-    height: 96%;
+    height: 95%;
     grid-column: 1/2;
     grid-row: 1/4;
     background-color: #0A0A0A;
@@ -115,7 +115,7 @@ h2 {
     border-width: 15px;
 }
 .black-column2 {
-    height: 96%;
+    height: 95%;
     grid-column: 3/4;
     grid-row: 1/4;
     background-color: #0A0A0A;
