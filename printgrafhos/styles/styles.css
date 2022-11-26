@@ -213,3 +213,149 @@ footer .social img {
     background-color: #b88700;
 }
 
+/* -----------------------Second page css - Gallery  page  ------------------*/
+.gallery_title {
+    text-align: center;
+    margin: 0 50px;
+}
+h1 {
+    color: #b88700;
+    font-size: 3em;
+}
+.gallery_title p {
+    color: #edf1e4;
+    font-size: 1.2em;
+}
+#limit {
+    color: #b88700;
+}
+
+/*main grid for gallery sections*/
+.gallery-box {
+    margin: 100px; 
+    max-width: 80%;
+    border-style: solid;  
+    border-width: 10px;
+    border-color: #b88700; 
+    background-color: #0A0A0A;               /*not working !!!!!!!!!!!!!1*/
+}
+/* titles of materials h2 */
+.material_1, .material_3, .material_5, .material_7, .material_9 {
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 2em;
+}
+.material_2, .material_4, .material_6, .material_8 {
+    text-align: right;
+    margin-right: 90px;
+    margin-top: 50px;
+}
+/* all imgs size*/
+/* .wood_images img, .ceramic_images img, .textile_images img, .paper_images img,
+.metal_images img, .plastic_images img, .banner_images img, .stamp_images img,
+.other_material_images img {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+} */
+/* wood section --------- */
+.wood_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 70px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #b88700;
+    margin: 20px;
+    background-color: #0A0A0A; 
+}
+.wood_img3 {
+    grid-column: 1/3;
+    grid-row: 1/3;                           
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.wood_img2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.wood_img1 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    padding: 5px;  
+}
+.wood_img4 {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    padding: 5px; 
+}
+.wood_img5 {
+    grid-column: 6/7;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+    padding: 5px; 
+}
+.wood_img6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    padding: 5px; 
+}
+
+.wood_img7 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    padding: 5px; 
+}
+.wood_img8 {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    padding: 5px; 
+}
+
+.wood_img9 {
+    grid-column: 6/7;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    padding: 5px; 
+}
+/* ceramics section --------*/
+
+
+/* textiles section -------- */
+
+
+/* paper section ---------- */
+
+
+
+/* metal section ---------- */
+
+
+/* plastics section -------- */
+
+
+/* banners section ---------- */
+
+
+/* stamps  section ---------- */
+
+
+/* others section ---------- */
