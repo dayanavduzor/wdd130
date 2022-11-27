@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lato:wght@300;400&family=Mulish:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Great+Vibes&family=Lato:wght@300;400&family=Mulish:wght@200;300&display=swap');
 
 #content {
     max-width: 1600px;
@@ -151,7 +151,7 @@ h2 {
     
 .gallery-button:hover {
     background-color: #0A0A0A;
-    color: #b88700;                 /* not working*/
+    color: #b88700;                 
 
 }
 /* address information and img*/
@@ -228,6 +228,8 @@ h1 {
 }
 #limit {
     color: #b88700;
+    font-family: "Great Vibes", "Lato", Helvetica;
+    font-size: 2em;
 }
 
 /*main grid for gallery sections*/
@@ -248,35 +250,19 @@ h1 {
 }
 .material_2, .material_4, .material_6, .material_8 {
     text-align: right;
-    margin-right: 90px;
+    margin-right: 150px;
     margin-top: 50px;
+    font-size: 2em;
 }
 /* all imgs size*/
 .wood_images img, .ceramic_images img, .textile_images img, .paper_images img,
 .metal_images img, .plastic_images img, .banner_images img, .stamp_images img,
 .other_material_images img {
     width: 100%;
-    height: 100%;
-    padding: 5px; 
+    height: 100%; 
 } 
-/* wood section --------- */
-.wood_images {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding: 70px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #b88700;
-    margin: 20px;
-    background-color: #0A0A0A; 
-}
-.wood_img3 {
-    grid-column: 1/3;
-    grid-row: 1/3;                           
-}
 
-/* ceramics section and textiles section have the same grid --------*/
+/* all sections have the same grid --------*/
 .wood_images, .ceramic_images, .textile_images, .paper_images, .metal_images,
 .plastic_images, .banner_images, .stamp_images, .other_material_images{
     display: grid;
@@ -287,7 +273,15 @@ h1 {
     border-color: #b88700;
     margin: 20px;
     background-color: #0A0A0A; 
+    padding: 70px;
 }
+/* img 4 times bigger than normal ones --------- */
+/* wood section -----------*/
+.wood_img3 {
+    grid-column: 1/3;
+    grid-row: 1/3;                           
+}
+/* wood section -----------*/
 .ceram_glass_img1 {
     grid-column: 5/7;              /*if I take all images but the big one taking two rows annd 2 columns still works!*/
     grid-row: 1/3;
@@ -298,8 +292,10 @@ h1 {
     grid-row: 1/3;
 }
 /* paper section ---------- */
-
-
+.paper_img19 {
+    grid-column: 5/7;              /*if I take all images but the big one taking two rows annd 2 columns still works!*/
+    grid-row: 1/3;
+}
 
 /* metal section ---------- */
 
