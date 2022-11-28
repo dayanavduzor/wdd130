@@ -305,9 +305,10 @@ h1 {
     text-align: center;
 }
 .reviews_box {
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr 1fr; /* 10 fr*/
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 100px 1fr 1fr 1fr 100px;
 }
 .individual_box1 {
     grid-column: 2/3;
