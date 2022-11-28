@@ -370,7 +370,7 @@ h1 {
     background-color: #0A0A0A;
     padding: 30px;
 }
-/*----------------------------------------*/
+/*---------------------------------inside  each review box ----------*/
 .individual_box1, .individual_box2, .individual_box3, .individual_box4,
 .individual_box5, .individual_box6 {
     display: grid;
@@ -381,7 +381,7 @@ h1 {
     border-radius: 50px;
     grid-column: 1/3;
     grid-row: 1/2;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 .name {
     grid-column: 1/2;
@@ -417,7 +417,7 @@ h1 {
 #balloon {
     grid-column: 1/3;
     grid-row: 4/5;
-    width: 100%;  
+    width: 90%;  
 }
 #bagpack {
     grid-column: 1/2;
@@ -427,8 +427,10 @@ h1 {
 #family_reunion {
     grid-column: 2/3;
     grid-row: 4/5;
+    width: 100%;
 }
 #school {
     grid-column: 2/3;
     grid-row: 3/4;
+    width: 100%;
 }
