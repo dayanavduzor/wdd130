@@ -307,7 +307,7 @@ h1 {
 .reviews_box {
     margin-top: 100px;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr 1fr; /* 10 fr*/
+    grid-template-columns: 20px 3fr 40px 3fr 40px 3fr 20px; /* 10 fr*/
     grid-template-rows: 1fr 1fr 1fr 100px 1fr 1fr 1fr 100px;
 }
 .individual_box1 {
@@ -375,13 +375,16 @@ h1 {
 .individual_box5, .individual_box6 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 90px 40px;
+    margin: 15px;
 }
 .woman_icon, .man_icon {
     width: 80px;
+    height: 80px;
     border-radius: 50px;
     grid-column: 1/3;
     grid-row: 1/2;
-    margin-left: 100px;
+    margin-left: 140px;
 }
 .name {
     grid-column: 1/2;
@@ -390,18 +393,18 @@ h1 {
     
 }
 .review_p {
-    margin-top: -10px;
     grid-column: 1/3;
     grid-row: 3/4;
     color: #edf1e4;
     font-size: .9em;
+    margin-bottom: 30px;
 }
 .review_p6{
-    margin-top: -10px;
     grid-column: 1/2;
     grid-row: 3/4;
     color: #edf1e4;
     font-size: .9em; 
+    padding: 10px;
 }
 #wedding {
     grid-column: 1/3;
@@ -412,24 +415,29 @@ h1 {
     grid-column: 1/3;
     grid-row: 4/5;
     width: 250px; 
+    margin-left: 40px;
 
 }
 #balloon {
     grid-column: 1/3;
     grid-row: 4/5;
-    width: 90%;  
+    width: 80%; 
+    margin-left: 40px; 
 }
 #bagpack {
+    margin-top: -75px;
     grid-column: 1/2;
     grid-row: 4/5;
-    width: 100%;
+    width: 80%;
 }
 #family_reunion {
+    margin-top: -75px;
     grid-column: 2/3;
     grid-row: 4/5;
     width: 100%;
 }
 #school {
+    margin-top: 40px;
     grid-column: 2/3;
     grid-row: 3/4;
     width: 100%;
