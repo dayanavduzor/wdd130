@@ -36,8 +36,96 @@ nav a {
     background-color: #F3C33F;
     color: black;
  }
+/*------------------- hero  img box -----------*/
+* {box-sizing:border-box}
 
-#hero-box{
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1600px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*----------------------------------------------------------------*/
+/* #hero-box{
     width: 100%;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -46,7 +134,7 @@ nav a {
     width: 100%;
     grid-column: 1/3;
     grid-row: 1/2;
-}
+} ---- this css was before the slide images-- -*/
 body {
     background: #141514;
     font-size: 21px;
@@ -54,7 +142,6 @@ body {
 
 .main_text_box_and_img {
     max-width: 80%;
-    height: 1000px;
     display: grid;
     grid-template-columns: 30px 1fr 1fr 30px;
     color: aliceblue;
@@ -63,8 +150,8 @@ body {
     border-style: solid;
     border-color: #b88700;
     border-width: 10px;
-    margin: 200px auto;
-    padding: 35px;
+    margin: 150px auto;
+    padding: 30px;
     font-family: "Mulish", Helvetica, sans-serif, "Arvo";
 }
 
@@ -93,6 +180,7 @@ h2 {
     grid-column: 3/4;
     padding: 10px;
     text-align: justify;
+    margin-left: 40px;
 }                                           
 
 /* gallery background and img to gallery*/
