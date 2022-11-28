@@ -296,4 +296,138 @@ h1 {
     grid-column: 5/7;              
     grid-row: 1/3;
 }
-/*----------------------------------------------*/
+/*--------------------------------------------------------  Reviews Section page ----------------------------------------------*/
+#reviews_title {
+    text-align: center;
+}
+.reviews_p {
+    color: #edf1e4;
+    text-align: center;
+}
+.reviews_box {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr 3fr 1fr; /* 10 fr*/
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.individual_box1 {
+    grid-column: 2/3;
+    grid-row: 1/4;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #b88700;
+    border-radius: 10px;
+    background-color: #0A0A0A;
+    padding: 30px;
+}
+.individual_box2 {
+    grid-column: 4/5;
+    grid-row: 1/4;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #b88700;
+    border-radius: 10px;
+    background-color: #0A0A0A;
+    padding: 30px;
+}
+.individual_box3 {
+    grid-column: 6/7;
+    grid-row: 1/4;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #b88700;
+    border-radius: 10px;
+    background-color: #0A0A0A;
+    padding: 30px;
+}
+.individual_box4 {
+    grid-column: 2/3;
+    grid-row: 5/8;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #b88700;
+    border-radius: 10px;
+    background-color: #0A0A0A;
+    padding: 30px;
+}
+.individual_box5 {
+    grid-column: 4/5;
+    grid-row: 5/8;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #b88700;
+    border-radius: 10px;
+    background-color: #0A0A0A;
+    padding: 30px;
+}
+.individual_box6 {
+    grid-column: 6/7;
+    grid-row: 5/8;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #b88700;
+    border-radius: 10px;
+    background-color: #0A0A0A;
+    padding: 30px;
+}
+/*----------------------------------------*/
+.individual_box1, .individual_box2, .individual_box3, .individual_box4,
+.individual_box5, .individual_box6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.woman_icon, .man_icon {
+    width: 80px;
+    border-radius: 50px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-left: 150px;
+}
+.name {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: #b88700;
+    
+}
+.review_p {
+    margin-top: -10px;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    color: #edf1e4;
+    font-size: .9em;
+}
+.review_p6{
+    margin-top: -10px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: #edf1e4;
+    font-size: .9em; 
+}
+#wedding {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    width: 100%;
+}
+#cards {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    width: 250px; 
+
+}
+#balloon {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    width: 100%;  
+}
+#bagpack {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 100%;
+}
+#family_reunion {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+#school {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
