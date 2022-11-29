@@ -352,7 +352,13 @@ h1 {
 .other_material_images img {
     width: 95%;
     height: 95%; 
+    transition: transform .5s;
 } 
+.wood_images img:hover , .ceramic_images img:hover, .textile_images img:hover, .paper_images img:hover,
+.metal_images img:hover, .plastic_images img:hover, .banner_images img:hover, .stamp_images img:hover,
+.other_material_images img:hover {
+    transform: scale(1.2);
+}
 
 /* all sections have the same grid --------*/
 .wood_images, .ceramic_images, .textile_images, .paper_images, .metal_images,
