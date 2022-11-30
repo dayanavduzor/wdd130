@@ -304,7 +304,11 @@ footer .social img {
     padding: 3px;
     background-color: #b88700;
 }
-
+footer p {
+    color: #b88700;
+    font-family: "Mulish", Helvetica, sans-serif, "Arvo";
+    font-size: .7em;
+}
 /* -----------------------------------  Second page css - Gallery  page   ----------------------------------------------*/
 .gallery_title {
     text-align: center;
