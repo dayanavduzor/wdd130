@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Great+Vibes&family=Lato:wght@300;400&family=Mulish:wght@200;300&display=swap');
 
 #content {
-    max-width: 1600px;
+    max-width: 1600px;          /*"max-width" means that it will never get wider than that but it might be more narrow and "width" will force a specific width under all conditions.  If your browser window is not at least that wide, a scroll bar will be added*/
     margin: 0 auto;
 }
 
