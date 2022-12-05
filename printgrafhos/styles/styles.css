@@ -416,6 +416,7 @@ h1 {
     color:#b88700;
     padding: 15px;
     border-radius: 5px;
+    font-family: "Lato", "Mulish", "Arvo";
 }
 .button-review:hover {
     background-color: #b88700;
