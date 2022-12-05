@@ -237,7 +237,7 @@ h2 {
     background-color: black;
     text-decoration: none;  
     text-align: center;
-    font-family: "Lato", "Mulish", "Arvo";                      /* not being centered!!*/
+    font-family: "Lato", "Mulish", "Arvo";                    
     font-size: .9em;
 } 
     
@@ -406,10 +406,25 @@ h1 {
     color: #edf1e4;
     text-align: center;
 }
+.button-box {
+    text-align: center;
+    margin-top: 60px;
+}
+.button-review{
+    text-decoration: none;
+    background-color: #0A0A0A;
+    color:#b88700;
+    padding: 15px;
+    border-radius: 5px;
+}
+.button-review:hover {
+    background-color: #b88700;
+    color: #0A0A0A;
+}
 .reviews_box {
     margin-top: 100px;
     display: grid;
-    grid-template-columns: 20px 3fr 40px 3fr 40px 3fr 20px; /* 10 fr*/
+    grid-template-columns: 20px 3fr 40px 3fr 40px 3fr 20px; /* 7 fr*/
     grid-template-rows: 1fr 1fr 1fr 100px 1fr 1fr 1fr 100px;
 }
 .individual_box1 {
@@ -479,6 +494,8 @@ h1 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 90px 40px;
     margin: 15px;
+    font-family: "Mulish", Helvetica, sans-serif, "Arvo";
+    text-align: justify;
 }
 .woman_icon, .man_icon {
     width: 80px;
@@ -493,6 +510,12 @@ h1 {
     grid-row: 2/3;
     color: #b88700;
     
+}
+.date {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: #b88700; 
+    text-align: right;
 }
 .review_p {
     grid-column: 1/3;
